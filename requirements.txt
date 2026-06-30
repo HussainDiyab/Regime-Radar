@@ -1,0 +1,35 @@
+# RegimeRadar — Regime-Aware Volatility Forecasting & Risk Dashboard
+# Python 3.11 recommended; tested on 3.13 (some libs may need newer wheels)
+
+# --- Data ---
+yfinance>=0.2.40
+fredapi>=0.5.2
+pandas>=2.1
+numpy>=1.26
+python-dotenv>=1.0
+
+# --- EDA / Viz ---
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+statsmodels>=0.14          # ACF/PACF, QQ helpers
+
+# --- Regime detection ---
+hmmlearn>=0.3.2
+
+# --- Classical ML ---
+xgboost>=2.0
+scikit-learn>=1.4
+shap>=0.45
+
+# --- Deep learning ---
+torch>=2.2
+
+# --- Uncertainty quantification ---
+mapie>=0.8
+
+# --- Backtesting ---
+vectorbt>=0.26
+
+# --- Dashboard ---
+streamlit>=1.33
